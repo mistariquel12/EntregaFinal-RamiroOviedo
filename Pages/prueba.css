@@ -1,0 +1,25 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: red;
+}
+
+.cuadrado {
+    width: 40%;
+    margin: 1rem;
+}
+img {
+    display: block;
+    height: 30%;
+}

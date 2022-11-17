@@ -1,0 +1,720 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #5C9BA0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, rgb(141, 238, 245) 0%, rgba(88, 127, 170, 1) 50%, rgba(146, 69, 97, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #5C9BA0;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+.header__logo img {
+    width: 10rem;
+    margin: 1rem;
+}
+
+.header__nav__ul {
+    margin: 0 0 1rem 0
+}
+
+.header__nav__ul__li {
+    color: #5C9BA0;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+.main__image {
+    display: none;
+}
+
+.container__title__line {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: -.1rem;
+    line-height: 2.9rem;
+    text-align: center;
+}
+
+.somos {
+    color: transparent;
+    -webkit-text-stroke: .1rem;
+    -webkit-text-stroke-color: white;
+}
+
+.fiesta {
+    color: #F9F871;
+    animation: modoFiesta 1s 0s alternate infinite ease;
+}
+
+.containerContactIndex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.containerContact__img {
+    width: 20vw;
+    margin: 0 1rem 0 0;
+}
+
+footer {
+    background-color: white;
+    margin-top: auto;
+    color: #5C9BA0;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer__sm {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__sm__icon__img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.containerBudget {
+    margin: 1rem;
+}
+
+.descBudget {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.descBudget_title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.thanks {
+    font-weight: 900;
+}
+
+.budget__containerForm {
+    color: white;
+}
+
+.formBudget {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0%;
+}
+
+.formBudget label {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.boolean {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-top: 1rem;
+}
+
+.boolean input {
+    width: 5rem;
+}
+
+.radios {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.radio input {
+    width: 2rem;
+}
+
+.sendBtn {
+    background: linear-gradient(45deg, rgb(141, 238, 245) 0%, rgba(88, 127, 170, 1) 50%, rgb(68, 116, 147) 100%);
+    color: white;
+    height: 2.5rem;
+    margin-top: .7rem;
+}
+
+.containerServices {
+    color: white;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.services__item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.services__item__p {
+    width: 47%;
+    background-color: white;
+    color: #5C9BA0;
+    text-align: center;
+    min-height: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: .5rem 0;
+}
+
+.title__pa {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.text__p {
+    margin-bottom: 1rem;
+}
+
+.services__item__p--selected {
+    background-color: #5C9BA0;
+    color: white;
+}
+
+.flechas {
+    display: none
+}
+
+.services__variable__gallery {
+    background-color: red;
+}
+
+.services__variable__gallery img {
+    width: 100%;
+    display: block;
+}
+
+.title__p {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+}
+
+.title__p--stroke {
+    color: transparent;
+    -webkit-text-stroke: .2rem;
+    -webkit-text-stroke-color: white;
+    padding-top: 1rem;
+}
+
+.feed1 {
+    background-image: url(../Images/catering/buffet.jpg);
+}
+
+.feed2 {
+    background-image: url(../Images/catering/buffet2.jpg);
+}
+
+/*opacity: 100%; border: solid .3rem white; filter: none;*/
+.feed3 {
+    background-image: url(../Images/catering/buffet3.jpg);
+}
+
+.feed4 {
+    background-image: url(../Images/catering/buffet4.jpg);
+}
+
+.feed5 {
+    background-image: url(../Images/catering/buffet5.jpg);
+}
+
+.feed6 {
+    background-image: url(../Images/catering/picada.jpeg);
+}
+
+.galleryFeed__feed__square {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.galleryFeed__feed {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.galleryShow {
+    display: none;
+}
+
+.containerContact {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.contactVia__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.contactVia__button__item {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.contactVia__title {
+    margin-top: 2rem;
+}
+.contactViaIcon {
+    width: 5rem;
+    margin: 1rem;
+}
+
+.mapSection {
+    padding: 1rem;
+}
+
+.labels {
+    color: white;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+input {
+    height: 1.5rem;
+}
+
+textarea {
+    height: 10rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+form button {
+    background-color: white;
+    color: #5C9BA0;
+    text-transform: uppercase;
+    border: none;
+    padding: .5rem 2rem;
+    margin: 0 1rem;
+}
+.contactForm__title {
+    margin-top: 2rem;
+}
+
+.mapSection__title {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.mapSection__desc {
+    font-weight: 400;
+}
+
+.mapSection p {
+    color: white;
+    text-align: center;
+}
+.title__pe {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+}
+
+.title__pe--fill {
+    color: transparent;
+    -webkit-text-stroke: .2rem;
+    -webkit-text-stroke-color: white;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5rem;
+        align-items: center;
+    }
+
+    .header__logo:hover {
+        transform: scale(1.2);
+    }
+
+    .header__nav__ul {
+        display: flex;
+    }
+
+    .header__nav__ul__li {
+        margin: 0 0 0 1rem;
+        border: transparent 1px solid;
+        padding: .5rem 1rem;
+    }
+
+    .header__nav__ul__li:hover {
+        border-bottom: #5C9BA0 1px solid;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 5rem;
+    }
+
+    .main {
+        display: flex;
+        padding: 0%;
+    }
+
+    .container {
+        width: 65%;
+        padding: 1.5rem 1rem 1rem 5rem;
+    }
+
+    .somos {
+        color: transparent;
+        -webkit-text-stroke: .2rem;
+        -webkit-text-stroke-color: white;
+    }
+
+    .container__title__line {
+        text-align: left;
+        font-size: 7.5rem;
+        line-height: 6.3rem;
+    }
+
+    .main__image {
+        display: block;
+        width: 35%;
+    }
+
+    .main__image img {
+        object-fit: cover;
+        object-position: center center;
+        height: 100%;
+    }
+
+    .containerContactIndex {
+        display: flex;
+        justify-content: left;
+    }
+
+    .containerContact__img {
+        width: 8rem;
+    }
+
+    .containerContact__img:hover {
+        transform: scale(1.1);
+    }
+
+    .budget__containerForm__form label {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        color: #5C9BA0;
+    }
+
+    .containerBudget {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .formBudget {
+        padding: 1.5rem;
+    }
+
+    .boolean {
+        align-items: center;
+    }
+
+    .radios {
+        width: 18rem;
+    }
+
+    .radio {
+        display: flex;
+        color: red;
+    }
+
+    .cuantos {
+        width: 70%;
+    }
+
+    .descBudget {
+        background-color: white;
+        padding: 1.5rem;
+        width: 25%;
+        margin: 0;
+    }
+
+    .budget__containerForm {
+        width: 75%;
+        background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5)), url(https://protocoloyetiqueta.es/wp-content/uploads/2019/02/protocolo-en-la-mesa_-la-colocacic3b3n-de-la-vajilla.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: flex-end;
+        padding: 1.5rem;
+    }
+
+    .budget__containerForm__form {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .title__p {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .title__pa {
+        color: #5C9BA0;
+        font-weight: 900;
+        font-size: 3rem;
+    }
+
+    .text__p {
+        font-size: 1.7rem;
+        color: #5C9BA0;
+    }
+
+    .thanks {
+        font-weight: 900;
+    }
+
+    .services__item__p {
+        width: 15%;
+        min-height: 5rem;
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .services__item__p:hover {
+        background-color: #5C9BA0;
+        color: white;
+    }
+
+    .services__variable {
+        display: flex;
+        padding: 1rem;
+    }
+
+    .services__variable__desc {
+        width: 40%;
+        background-color: white;
+        padding: 2rem;
+        margin: 0 1rem 0 0;
+    }
+
+    .flechas {
+        display: flex;
+        justify-content: space-between;
+        color: transparent;
+        -webkit-text-stroke: .1rem #5C9BA0;
+        font-size: 10rem;
+    }
+
+    .flechas:hover {
+        color: #5C9BA0;
+    }
+
+    .services__variable__gallery {
+        display: flex;
+        margin: 0 0 0 1rem
+    }
+
+    .services__variable__gallery img {
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .galleryContainer {
+        display: flex;
+        width: 100%;
+        margin: 0 5%;
+    }
+
+    .galleryFeed {
+        width: 50%;
+        padding: 1rem;
+    }
+    .galleryFeed__feed {
+        justify-content: flex-start;
+    }
+    .galleryFeed__feed__square {
+        width: 25%;
+        height: 12rem;
+        margin: 1rem;
+    }
+    .galleryFeed__feed__square:hover {
+        border: 4px solid white;
+    }
+    .feed3 {
+        border: 4px solid white;
+    }
+
+    .title__p {
+        font-size: 10rem;
+        text-align: left;
+        line-height: 10rem;
+    }
+
+    .galleryShow {
+        display: inline;
+        width: 40%;
+        padding: 2rem 0;
+    }
+
+    .galleryShow img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .containerContact {
+        display: flex;
+        flex-direction: row;
+    }
+    .contactVia__title {
+        width: 36%;
+    }
+    .contactForm {
+        width: 32%;
+    }
+    .mapSection {
+        width: 32%;
+    }
+    .title__pe {
+        font-size: 7rem;
+        font-weight: 900;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .title__pe--fill {
+        color: transparent;
+        -webkit-text-stroke: .2rem;
+        -webkit-text-stroke-color: white;
+    }
+    .contactVia__buttons {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .contactVia__button__item {
+        display: flex;
+        align-items: center;
+    }
+    .contactViaName {
+        font-size: 4rem;
+    }
+    iframe {
+        height: 37rem;
+    }
+    textarea {
+        height: 15rem;
+    }
+}
+
+@keyframes modoFiesta {
+    0% {
+        color: red;
+        text-shadow: red .1rem .1rem 1rem;
+    }
+
+    20% {
+        color: blue;
+        text-shadow: blue .1rem .1rem 1rem;
+    }
+
+    40% {
+        color: greenyellow;
+        text-shadow: greenyellow .1rem .1rem 1rem;
+    }
+
+    50% {
+        color: white;
+        text-shadow: white .1rem .1rem 1rem;
+    }
+
+    60% {
+        color: magenta;
+        text-shadow: magenta .1rem .1rem 1rem;
+    }
+
+    80% {
+        color: cyan;
+        text-shadow: cyan .1rem .1rem 1rem;
+    }
+
+    90% {
+        color: white;
+        text-shadow: white .1rem .1rem 1rem;
+    }
+
+    100% {
+        color: yellow;
+        text-shadow: yellow .1rem .1rem 1rem;
+    }
+
+    /* 0% {color: white; opacity: 50%;}
+    20% {color: white; opacity: 100%;}
+    40% {color: white; opacity: 50%;}
+    60% {color: white; opacity: 100%;}
+    80% {color: white; opacity: 50%;}
+    100% {color: white; opacity: 100%;} */
+
+}

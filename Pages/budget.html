@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../Styles/styles.css">
+    <link rel="shortcut icon" href="../Images/favicon.png" type="image/x-icon">
+    <title>RG-Eventos®</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html"><img src="../Images/logo-horizontal.png" alt="logo"></a>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav__ul row">
+                <a class="header__nav__ul__li_a" href="index.html"><li class="header__nav__ul__li">Inicio</li></a>
+                <a class="header__nav__ul__li_a" href="budget.html"><li class="header__nav__ul__li">Presupuestos</li></a>
+                <a class="header__nav__ul__li_a" href="services.html"><li class="header__nav__ul__li">Servicios</li></a>
+                <a class="header__nav__ul__li_a" href="gallery.html"><li class="header__nav__ul__li">Galería</li></a>
+                <a class="header__nav__ul__li_a" href="contact.html"><li class="header__nav__ul__li">Contacto</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="containerBudget row">
+    <div class="descBudget column">
+        <div class="descBudget_title">
+            <p class="descBudget__title__p title__pa">Presupuestos</p>
+        </div>
+        <div class="descBudget_text">
+            <p class="descBudget__text__p text__p">Toda la informacion que puedas proveernos
+                va a servir para que tu presupuesto sea mas preciso.
+                Los campos no son obligatorios pero todas las respuestas nos ayudan
+                a poder brindarte un mejor servicio en base a nuestra experiencia.
+                <br><br><span class="thanks">¡Muchas Gracias</span>
+            </p>
+        </div>
+    </div>
+    <div class="budget__containerForm row">
+        <div class="budget__containerForm__form">
+            <form action="" class="column formBudget">
+                <input type="text">
+                <label for="name">Nombre y apellido</label>
+                <input type="number">
+                <label for="name">Telefono/Celular/Whatsapp</label>
+                <input type="email">
+                <label for="name">E-mail</label>
+                <select name="tipoDeEvento" id="tipoDeEvento">
+                    <option value="Quince">15 Años</option>
+                    <option value="Dieciocho">18 Años</option>
+                    <option value="Casamiento">Casamiento</option>
+                    <option value="Cumpleaños">Cumpleaños</option>
+                    <option value="Sociales">Sociales</option>
+                    <option value="Empresariales">Empresariales</option>
+                </select>
+                <label for="tipoDeEvento">Tipo de evento</label>
+                <input type="date">
+                <label for="name">Fecha del evento</label>
+                <div class="boolean row">
+                    <div class="radios column">
+                        <div class="radio">
+                            <input type="radio" name="menores" id="">
+                            <label for="">Si</label>
+                            <input type="radio" name="menores" id="">
+                            <label for="">No</label>
+                        </div>
+                        <label for="">¿Menores de 10 años?</label>
+                    </div>
+                    <div class="cuantos column">
+                        <input type="text">
+                        <label for="">¿Cuántos?</label>
+                    </div>
+                </div>
+                <div class="boolean row">
+                    <div class="radios column">
+                        <div class="radio">
+                            <input type="radio" name="mayores" id="">
+                            <label for="">Si</label>
+                            <input type="radio" name="mayores" id="">
+                            <label for="">No</label>
+                        </div>
+                        <label for="">¿Mayores de 10 años?</label>
+                    </div>
+                    <div class="cuantos column">
+                        <input type="text">
+                        <label for="">¿Cuántos?</label>
+                    </div>
+                </div>
+                <div class="boolean row">
+                    <div class="radios column">
+                        <div class="radio">
+                            <input type="radio" name="hipertensos" id="">
+                            <label for="">Si</label>
+                            <input type="radio" name="hipertensos" id="">
+                            <label for="">No</label>
+                        </div>
+                        <label for="">Invitados HIPERTENSOS</label>
+                    </div>
+                    <div class="cuantos column">
+                        <input type="text">
+                        <label for="">¿Cuántos?</label>
+                    </div>
+                </div>
+                <div class="boolean row">
+                    <div class="radios column">
+                        <div class="radio">
+                            <input type="radio" name="celiaco" id="">
+                            <label for="">Si</label>
+                            <input type="radio" name="celiaco" id="">
+                            <label for="">No</label>
+                        </div>
+                        <label for="">Invitados CELÍACOS</label>
+                    </div>
+                    <div class="cuantos column">
+                        <input type="text">
+                        <label for="">¿Cuántos?</label>
+                    </div>
+                </div>
+                <div class="boolean row">
+                    <div class="radios column">
+                        <div class="radio">
+                            <input type="radio" name="vegano" id="">
+                            <label for="">Si</label>
+                            <input type="radio" name="vegano" id="">
+                            <label for="">No</label>
+                        </div>
+                        <label for="">Invitados VEGANOS</label>
+                    </div>
+                    <div class="cuantos column">
+                        <input type="text">
+                        <label for="">¿Cuántos?</label>
+                    </div>
+                </div>
+                <div class="boolean row">
+                    <div class="radios column">
+                        <div class="radio">
+                            <input type="radio" name="vegetariano" id="">
+                            <label for="">Si</label>
+                            <input type="radio" name="vegetariano" id="">
+                            <label for="">No</label>
+                        </div>
+                        <label for="">Invitados VEGETARIANOS</label>
+                    </div>
+                    <div class="cuantos column">
+                        <input type="text">
+                        <label for="">¿Cuántos?</label>
+                    </div>
+                </div>
+                <input class="sendBtn" type="button" value="Solicitar presupuesto">
+            </form>
+        </div>
+    </div>
+</div>
+    <footer class="footer row">
+        <p class="footer__text">Designed by <a href="#">Ramiro Gastón</a></div>
+        <p class="footer__text">RG® Catering & Eventos 2022</p></div>
+        <div class="footer__sm">
+            <div class="footer__sm__icon"><a href="http://www.wa.me/5491132645346"><img class="footer__sm__icon__img" src="../Images/whatsapp.svg" alt=""></a></div>
+            <div class="footer__sm__icon"><a href="https://www.instagram.com/mista.riquel12/"><img class="footer__sm__icon__img" src="../Images/instagram.svg" alt=""></a></div>
+            <div class="footer__sm__icon"><a href="https://www.facebook.com/asdramiro.gaston/"><img class="footer__sm__icon__img" src="../Images/facebook.svg" alt=""></a></div>
+        </div>
+    </footer>
+</body>
+</html>

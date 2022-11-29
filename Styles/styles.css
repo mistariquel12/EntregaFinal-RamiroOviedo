@@ -18,7 +18,9 @@ body {
 .active {
     background-color: #5C9BA0;
 }
-
+h6 a:hover {
+    color: inherit;
+}
 
 .somos {
     color: transparent;
@@ -27,14 +29,14 @@ body {
 }
 
 .fiesta {
-    color: #F9F871;
+    color: white;
     animation: modoFiesta 3s 0s alternate infinite ease;
 }
 .colorFont {
     color: #5C9BA0;
 }
 .mainImag {
-    background-image: url(/fiesta-casamiento.jpg);
+    background-image: url(/Images/fiesta-casamiento.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -50,17 +52,17 @@ body {
 
 @keyframes modoFiesta {
     0% {
-        color: red;
+        color: white;
         text-shadow: red .1rem .1rem 1rem;
     }
 
     20% {
-        color: blue;
+        color: white;
         text-shadow: blue .1rem .1rem 1rem;
     }
 
     40% {
-        color: greenyellow;
+        color: white;
         text-shadow: greenyellow .1rem .1rem 1rem;
     }
 
@@ -70,12 +72,12 @@ body {
     }
 
     60% {
-        color: magenta;
+        color: white;
         text-shadow: magenta .1rem .1rem 1rem;
     }
 
     80% {
-        color: cyan;
+        color: white;
         text-shadow: cyan .1rem .1rem 1rem;
     }
 
@@ -85,7 +87,7 @@ body {
     }
 
     100% {
-        color: yellow;
+        color: white;
         text-shadow: yellow .1rem .1rem 1rem;
     }
 }

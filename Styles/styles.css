@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(45deg, rgb(141, 238, 245) 0%, rgba(88, 127, 170, 1) 50%, rgba(146, 69, 97, 1) 100%);
+    background: linear-gradient(45deg, rgb(89, 181, 187) 0%, rgba(88, 127, 170, 1) 50%, rgba(146, 69, 97, 1) 100%);
     min-height: 100vh;
 }
 
@@ -39,7 +39,7 @@ h6 a:hover {
 }
 
 .mainImag {
-    background-image: url(./Images/fiesta-casamiento.jpg);
+    background-image: url(/Images/fiesta-casamiento.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -67,19 +67,54 @@ h6 a:hover {
     background-color:rgba(255, 255, 255, 0.5);
 }
 
-form label {
+.formBudget label {
     color: #5C9BA0;
 }
 
-form input, form select {
+textarea:placeholder-shown {
+    color: #264c4f;
+}
+
+
+
+.formBudget input, .formBudget select {
     border: 0ch;
     border-bottom: 1px solid #5C9BA0;
     background-color: transparent;
     width: 100%;
 }
 
-@media screen and (min-width: 576px) {}
+.caret {
+    font-size: 4rem;
+}
 
+.fontGallery {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+.fontContact {
+    font-size: 6rem;
+}
+
+.formContact input {
+    border: 0ch;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+.formContact label {
+    
+}
+
+.formContact textarea {
+    border: 1.4px solid white;
+    background-color: transparent;
+}
+.formContact textarea:placeholder-shown {
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+}
 @keyframes modoFiesta {
     0% {
         color: white;

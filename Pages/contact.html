@@ -5,123 +5,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Styles/styles.css">
     <link rel="shortcut icon" href="../Images/favicon.png" type="image/x-icon">
     <title>RG-Eventos®</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/Styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="d-flex flex-column">
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="header__logo" src="../Images/logo-horizontal.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link item-nav" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link item-nav" href="./budget.html">Presupuestos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link item-nav" href="./gallery.html">Galería</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link item-nav" href="./services.html">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link item-nav" href="./contact.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-</header>
-    <div class="containerContact">
-        <div class="contactVia__title">
-            <div>
-                <p class="title__pe title__pe--stroke">vías de</p>
-                <p class="title__pe title__pe--fill">contacto</p>
-            </div>
-            <div class="contactVia__buttons">
-                <div class="contactVia__button__item">
-                    <a href="https://www.wa.me/5491132645346">
-                        <img class="contactViaIcon" src="../Images/WA.svg" alt="whatsapp-icon">
-                    </a>
-                    <p class="contactViaName">WHATSAPP</p>
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg bg-light ">
+                <div class="container">
+                    <nav class="navbar bg-light w-75">
+                        <div class="container m-0 ">
+                            <a class="navbar-brand" href="./index.html">
+                                <img src="/Images/logo-horizontal.png" class="img-fluid w-50" alt="Logo-RG">
+                            </a>
+                        </div>
+                    </nav>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link px-2 " href="../index.html">inicio</a>
+                            </li>
+                            <li class="nav-item mx-2 px-2 ">
+                                <a class="nav-link" href="./presupuestos.html">Presupuestos</a>
+                            </li>
+                            <li class="nav-item mx-2 px-2">
+                                <a class="nav-link" href="./services.html">Servicios</a>
+                            </li>
+                            <li class="nav-item mx-2 px-2">
+                                <a class="nav-link" href="./gallery.html">Galería</a>
+                            </li>
+                            <li class="nav-item mx-2 px-2">
+                                <a class="nav-link active text-light rounded" href="./contact.html">Contacto</a>
+                            </li>
+                    </div>
                 </div>
-                <div class="contactVia__button__item">
-                    <a href="https://www.instagram.com/mista.riquel12/">
-                        <img class="contactViaIcon" src="../Images/IG.svg" alt="instagram-icon">
-                    </a>
-                    <p class="contactViaName">INSTAGRAM</p>
-                </div>
-                <div class="contactVia__button__item">
-                    <a href="https://www.facebook.com/asdramiro.gaston/">
-                        <img class="contactViaIcon" src="../Images/FB.svg" alt="facebook-icon">
-                    </a>
-                    <p class="contactViaName">FACEBOOK</p>
-                </div>
-            </div>
+            </nav>
         </div>
-        <div class="contactForm">
-            <div class="contactForm__title">
-                <p class="title__pe title__pe--stroke">Dejá tu</p>
-                <p class="title__pe title__pe--fill">mensaje</p>
-            </div>
-            <form action="" class=">
-                <input type="text" name="nombre" id="nombre">
-                <label class="labels" for="nombre">Nombre y Apellido</label>
-                <input type="number" name="celular" id="celular">
-                <label class="labels" for="celular">Celular/Whatsapp</label>
-                <input type="email" name="email" id="email">
-                <label class="labels" for="email">E-Mail</label>
-                <textarea name="" id="" cols="50"s="10" placeholder="¡Dejanos tu mensaje!"></textarea>
-                <div class="botones">
-                    <button type="reset">Borrar</button>
-                    <button type="submit">Enviar</button>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 p-3">
+                <p class="fontGallery text-uppercase text-light fw-bold mt-3 text-center text-lg-start "><span
+                        class="somos">Vías de</span> contacto</p>
+                <div class="container">
+                    <div class="col-12 d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                        <i class="bi bi-instagram i-icon mx-2 fontContact text-light"></i> <a href=""
+                            class="text-decoration-none">
+                            <p class="fontContact text-light text-uppercase fw-bold">Ig</p>
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                        <i class="bi bi-facebook i-icon mx-2 fontContact text-light"></i> <a href=""
+                            class="text-decoration-none">
+                            <p class="fontContact text-light text-uppercase fw-bold">Fb</p>
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                        <i class="bi bi-whatsapp i-icon mx-2 fontContact text-light"></i> <a href=""
+                            class="text-decoration-none">
+                            <p class="fontContact text-light text-uppercase fw-bold">Wa</p>
+                        </a>
+                    </div>
                 </div>
-            </form>
-        </div>
-        <div class="mapSection">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.2922251087934!2d-58.717048384202876!3d-34.546155761962915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd7335de486b%3A0x7fe70fea2fce45f5!2sBelgrano%201630%2C%20B1663NMF%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1667171843801!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="mapSection__title">
-                <p>¡Estamos en San Miguel!</p>
             </div>
-            <div class="mapSection__desc">
-                <p>Belgrano 1630 - Entre Farias y Jose María Paz</p>
-                <p>Lunes a Viernes de 8hs a 17hs - Sabados de 8 a 12hs</p>
-                <p>Domingos y Feriados cerrados</p>
-                <p>Solicitar entrevista previa</p>
+            <div class="col-lg-4 p-3">
+                <p class="fontGallery text-uppercase text-light fw-bold mt-3 text-center text-lg-start"><span
+                        class="somos">Dejá un</span> mensaje</p>
+                <form action="" class="d-flex flex-column formContact">
+                    <input type="text" class="mt-3">
+                    <label for="name" class="text-light">Nombre y Apellido</label>
+                    <input type="tel" class="mt-3">
+                    <label for="tel" class="text-light">Teléfono/Whatsapp</label>
+                    <input type="mail" class="mt-3">
+                    <label for="mail" class="text-light">E-mail</label>
+                    <textarea name="message" id="message" cols="30" rows="10" class="mt-3"
+                        placeholder="Escribí tu mensaje" class="mt-3"></textarea>
+                </form>
+            </div>
+            <div class="col-lg-4 p-3">
+                <p class="fontGallery text-uppercase text-light fw-bold mt-3 text-center text-lg-start"><span
+                        class="somos">estamos</span> acá</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.2922251087934!2d-58.717048384202876!3d-34.546155761962915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd7335de486b%3A0x7fe70fea2fce45f5!2sBelgrano%201630%2C%20B1663NMF%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1667171843801!5m2!1ses-419!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    width="100%" height="300px"></iframe>
+                <p class="h2 text-center mt-2 fw-bold text-light text-uppercase">¡Encontranos en <br> San Miguel Centro!
+                </p>
+                <p class="lead text-center mt-2 text-light"> Belgrano 1630 - Entre Farias y Jose M. Paz
+                    <br><span class="fw-bold mt-2 text-decoration-underline">Horario de atención</span>
+                    <br> Lunes a Viernes 8hs a 17hs
+                    <br> Sabados de 8 a 12hs
+                    <br>Domingos y Feriados cerrados
+                    <br><span class="fw-bold">**Solicitar entrevista previa**</span>
+                </p>
             </div>
         </div>
     </div>
-    <footer class="footer">
-        <p class="footer__text">Designed by <a href="#">Ramiro Gastón</a></div>
-            <p class="footer__text">RG® Catering & Eventos 2022</p>
+    <footer class="container-fluid bg-light mt-auto">
+        <div class="container d-md-flex justify-content-between align-items-center py-2 colorFont">
+            <h6 class="col lead text-center text-md-start">Designed by <a class="colorFont"
+                    href="https://github.com/mistariquel12">Ramiro Gastón</a></h6>
+            <h6 class="col text-center lead">RG - Catering & Eventos® 2022</h6>
+            <div class="col container-fluid text-end iconColor text-center text-md-end">
+                <a href="#"><i class="bi bi-instagram fs-3 i-icon mx-2 colorFont"></i></a>
+                <a href="#"><i class="bi bi-github fs-3 i-icon mx-2 colorFont"></i></a>
+                <a href="#"><i class="bi bi-facebook fs-3 i-icon mx-2 colorFont"></i></a>
+                <a href="#"><i class="bi bi-whatsapp fs-3 i-icon mx-2 colorFont"></i></a>
             </div>
-            <div class="footer__sm">
-                <div class="footer__sm__icon"><a href="http://www.wa.me/5491132645346"><img
-                            class="footer__sm__icon__img" src="../Images/whatsapp.svg" alt=""></a></div>
-                <div class="footer__sm__icon"><a href="https://www.instagram.com/mista.riquel12/"><img
-                            class="footer__sm__icon__img" src="../Images/instagram.svg" alt=""></a></div>
-                <div class="footer__sm__icon"><a href="https://www.facebook.com/asdramiro.gaston/"><img
-                            class="footer__sm__icon__img" src="../Images/facebook.svg" alt=""></a></div>
-            </div>
+        </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

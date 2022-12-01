@@ -39,7 +39,7 @@ h6 a:hover {
 }
 
 .mainImag {
-    background-image: url(/Images/fiesta-casamiento.jpg);
+    background-image: url("/Images/fiesta-casamiento.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -52,7 +52,7 @@ h6 a:hover {
 
 .img-budget {
     background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-    url(https://protocoloyetiqueta.es/wp-content/uploads/2019/02/protocolo-en-la-mesa_-la-colocacic3b3n-de-la-vajilla.jpg);
+    url("https://protocoloyetiqueta.es/wp-content/uploads/2019/02/protocolo-en-la-mesa_-la-colocacic3b3n-de-la-vajilla.jpg");
     min-height: 75vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,6 +91,17 @@ textarea:placeholder-shown {
 .fontGallery {
     font-size: 3.5rem;
     line-height: 3.5rem;
+}
+
+.activeGall {
+    filter: none;
+}
+.gall img {
+    filter: grayscale();
+}
+.gall img:hover {
+    filter: none;
+    cursor: pointer;
 }
 
 .fontContact {

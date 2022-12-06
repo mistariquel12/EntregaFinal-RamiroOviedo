@@ -1,0 +1,17 @@
+@import "variables";
+
+.caret {
+    font-size: 4rem;
+    &:hover {
+        color: $primary-darker;
+    }
+}
+
+.item-services:hover {
+    background-color: $primary-color !important;
+    cursor: pointer;
+
+    p {
+        color: white;
+    }
+}

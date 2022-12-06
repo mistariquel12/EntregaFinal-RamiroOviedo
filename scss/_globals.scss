@@ -1,0 +1,7 @@
+@import "variables";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient($fade-color) ;
+    min-height: 100vh;
+}

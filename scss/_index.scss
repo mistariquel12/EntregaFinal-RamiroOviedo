@@ -1,0 +1,26 @@
+@import "variables";
+@import "animations";
+
+.mainImag {
+    background-image: url("/Images/fiesta-casamiento.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 75vh;
+}
+
+.fontSize {
+    font-size: clamp(3.5rem, 16vw, 5.3rem);
+}
+
+
+.somos {
+    color: transparent;
+    -webkit-text-stroke: .1rem;
+    -webkit-text-stroke-color: white;
+}
+
+.fiesta {
+    color: white;
+    animation: modoFiesta 3s 0s alternate infinite ease;
+}

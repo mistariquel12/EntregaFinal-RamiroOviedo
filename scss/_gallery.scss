@@ -1,0 +1,20 @@
+@import "variables";
+
+.fontGallery {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+.activeGall {
+    filter: none;
+}
+
+.gall img {
+    filter: grayscale(1);
+
+    &:hover {
+        filter: none;
+        cursor: pointer;
+
+    }
+}

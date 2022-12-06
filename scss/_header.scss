@@ -1,0 +1,16 @@
+@import "variables";
+
+.nav-link {
+    text-transform: uppercase;
+    color: #5C9BA0;
+
+    &:hover {
+        font-weight: 800;
+        color: #5C9BA0;
+        border-bottom: solid 1px #5C9BA0;
+    }
+}
+
+.active {
+    background-color: $primary-color
+}

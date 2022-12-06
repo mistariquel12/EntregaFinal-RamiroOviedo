@@ -1,0 +1,23 @@
+@import "variables";
+
+.fontContact {
+    font-size: 6rem;
+}
+
+.formContact {
+    input {
+        border: 0ch;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+    }
+    textarea {
+        border: 1.4px solid white;
+        background-color: transparent;
+
+        &:placeholder-shown {
+            color: white;
+            font-weight: bold;
+            padding: 1rem;
+        }
+    }
+}

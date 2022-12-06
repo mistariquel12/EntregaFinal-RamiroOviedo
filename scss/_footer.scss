@@ -1,0 +1,18 @@
+@import "variables";
+
+h6 {
+    color: $primary-color;
+    
+    a {
+        
+        color: $primary-color;
+        
+        &:hover {
+            color: inherit ;
+        }
+    }
+}
+
+.colorFont {
+    color: $primary-color;
+}

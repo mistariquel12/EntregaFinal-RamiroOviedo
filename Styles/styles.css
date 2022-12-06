@@ -39,7 +39,7 @@ h6 a:hover {
 }
 
 .mainImag {
-    background-image: url("/Images/fiesta-casamiento.jpg");
+    background-image: url("./Images/fiesta-casamiento.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
